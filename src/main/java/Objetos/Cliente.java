@@ -23,6 +23,14 @@ public class Cliente {
    
   private ArrayList <Cuenta> cuenta;
   
+  //metodo Tostring
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "dni=" + dni + ", nombre=" + nombre + ", direccion=" + direccion + ", cuenta=" + cuenta + '}';
+    }
+  
+  
    //metodos
 
     public Integer getDni() {
@@ -47,6 +55,14 @@ public class Cliente {
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
+    }
+
+    public void setCuenta() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setCuenta(String de_ahorro) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
