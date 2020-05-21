@@ -11,4 +11,20 @@ package Objetos;
  */
 public class Ahorro {
     
+ //atributos
+    private Integer nrocuenta;
+
+    public Integer getNrocuenta() {
+        return nrocuenta;
+    }
+
+    public void setNrocuenta(Integer nrocuenta) {
+        this.nrocuenta = nrocuenta;
+    }
+    
+ //metodos
+   
+    public void ofrecerIntereses(){
+    
+    }
 }

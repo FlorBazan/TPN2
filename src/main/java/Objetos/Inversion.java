@@ -10,5 +10,23 @@ package Objetos;
  * @author Vane
  */
 public class Inversion {
+    //atributos
+    
+    private Integer cantidad;
+
+    public Integer getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(Integer cantidad) {
+        this.cantidad = cantidad;
+    }
+    
+       
+    //metodos
+    
+   public void comprarAcciones (){
+       
+    }
     
 }
