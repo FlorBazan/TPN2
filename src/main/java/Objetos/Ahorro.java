@@ -9,7 +9,7 @@ package Objetos;
  *
  * @author Vane
  */
-public class Ahorro {
+public class Ahorro extends Cuenta {
     
  //atributos
     private Integer nrocuenta;

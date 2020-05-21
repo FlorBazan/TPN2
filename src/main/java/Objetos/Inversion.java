@@ -9,7 +9,7 @@ package Objetos;
  *
  * @author Vane
  */
-public class Inversion {
+public class Inversion extends Cuenta {
     //atributos
     
     private Integer cantidad;

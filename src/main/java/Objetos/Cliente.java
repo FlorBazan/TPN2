@@ -5,6 +5,8 @@
  */
 package Objetos;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Vane
@@ -17,7 +19,10 @@ public class Cliente {
    private String nombre;
    private String direccion;
    
+   //relacion de composicion 
    
+  private ArrayList <Cuenta> cuenta;
+  
    //metodos
 
     public Integer getDni() {
